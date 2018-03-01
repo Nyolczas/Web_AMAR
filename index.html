@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <title>AMAR The Lighthunter</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" charset="UTF-8">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body class="fullscreen-bg">
+
+    <video loop muted autoplay poster="/img/e6c32672/cbg.PNG" class="fullscreen-bg__video">
+        <source src="https://player.vimeo.com/external/246475039.hd.mp4?s=c10ed512428ac091058ecf9f29dbd0d25bd487ff&profile_id=175">
+    </video>
+
+
+    <img class="logocska" src="/img/mainpage/logo.png" alt="NetAcademia Oktatóközpont Kft.">
+    <div id="headerbox">
+        <ol>
+            <li>
+                <a href="/tanfolyamkereso">Tanfolyamkereső</a>
+            </li>
+            <li>
+                <a href="/oktato" class="hideonmobile">Karrier</a>
+            </li>
+            <li>
+                <a href="/oktatasmodszertan" class="hideonmobile">Rólunk</a>
+            </li>
+            <li>
+                <a href="/kapcsolat" class="hideonmobile">Kapcsolat</a>
+            </li>
+            <li>
+                <a href="/Adataim">Adataim</a>
+            </li>
+        </ol>
+    </div>
+
+
+    <div class="vfkozepre">
+        <div class="cim">Élő, online oktatás bárhol, bármikor</div>
+        <div class="gombdoboz">
+            <a href="/indulotanfolyamok">
+                <div class="gomb">Induló tanfolyamok</div>
+            </a>
+            <a href="/ultimateakcio">
+                <div class="gomb">Előfizetés-akció</div>
+            </a>
+            <a href="/webfejleszto-angular">
+                <div class="gomb">Webfejlesztő Angular</div>
+            </a>
+            <a href="/webfejleszto-vuejs">
+                <div class="gomb">Webfejlesztő Vue.js</div>
+        </div>
+        <br />
+        <div class="hirlev">
+            <a href="https://netacademia.hu/www.netacademia.hu_NewsLetter">Hírlevél-feliratkozás</a>
+        </div>
+    </div>
+
+
+    <div class="lablec vkozepre">
+        © NetAcademia 1998-
+        <span id="year"></span>
+        <span>
+            <a href="GeneralTermsAndConditions/Subscription">ÁSZF</a>
+        </span>
+        <span>
+            <a href="GeneralTermsAndConditions/PrivacyStatement">Adatvédelem</a>
+        </span>
+    </div>
+    <script>
+        var d = new Date();
+        var n = d.getFullYear();
+        document.getElementById("year").innerHTML = n;
+    </script>
+
+</body>
+
+</html>
