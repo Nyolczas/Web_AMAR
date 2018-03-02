@@ -19,21 +19,16 @@ ol li {
 }
 
 .logocska {
-    position: absolute;
+    /* position: absolute;
     margin-top: 20px;
-    margin-left: 20px;
+    margin-left: 20px; */
     width: 100px;
-    /* height: 50px;  */
+    z-index: 100;
 }
 
 a {
-    color: white;
+    color: rgba(255, 255, 255, 0.5);
     text-decoration: none;
-}
-
-.gombdoboz a {
-    margin: 10px;
-    display: inline-block;
 }
 
 .cim {
@@ -49,35 +44,14 @@ a {
 }
 
 .vfkozepre {
+    width: 100%;
     position: absolute;
-    top: 50%;
-    margin-bottom: -50%;
+    top: 0%;
+    margin-bottom: 0%;
     left: 50%;
     margin-right: -50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, 0%);
     text-align: center;
-}
-
-#headerbox {
-    text-align: center;
-    position: absolute;
-    left: 50%;
-    margin-right: -50%;
-    transform: translate(-50%, 0);
-    font-family: Arial;
-    text-transform: uppercase;
-    font-size: 14px;
-    margin-top: 1px;            
-}
-
-#headerbox a {
-    margin: 0px 10px;
-    text-decoration: none;
-}
-
-#headerbox a:hover {
-    color: rgb(203, 203, 203);
-    transition-duration: 0.5s;
 }
 
 .lablec {
@@ -94,22 +68,27 @@ a {
     text-decoration: none;
 }
 
-.lablec a:hover {
+/* .lablec a:hover {
     color: rgb(203, 203, 203);
     transition-duration: 0.5s;
-}
+} */
 
 .gombdoboz {
-    margin-top: 30px;
+    width: 100%;
     margin-left: auto;
     margin-right: auto;
     display: table;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.gombdoboz a {
+    margin: 0px 10px -10px 10px;
+    display: inline-block;
 }
 
 .gomb {
     padding: 12px;
     width: 165px;
-    background: rgba(0, 0, 0, 0.5);
     font-family: Arial;
     font-size: 12px;
     font-weight: 600;
@@ -118,55 +97,11 @@ a {
     vertical-align: middle;
     height: 18px;
     border: 1px solid transparent;
-
 }
 
 .gomb:hover {
-    border: 1px solid white;
     transition-duration: 0.5s;
-}
-.akciogomb {
-    padding: 12px;
-    width: 165px;
-    background: rgba(255, 0, 0, 0.6);
-    font-family: Arial;
-    font-size: 12px;
-    font-weight: 600;
-    text-transform: uppercase;
-    display: table-cell;
-    vertical-align: middle;
-    height: 18px;
-    border: 1px solid transparent;
-
-}
-
-.akciogomb:hover {
-    border: 1px solid white;
-    transition-duration: 0.5s;
-}
-
-.hirlev {
-    margin-top: 30px;
-    text-decoration: none;
-    font-family: Arial;
-    display: inline-block;
-}
-
-.hirlev a:hover {
-    color: rgb(203, 203, 203);
-    transition-duration: 0.5s;
-}
-
-#conference {
-    margin-top: 30px;
-    text-decoration: none;
-    font-family: Arial;
-    display: inline-block;
-}
-
-#conference a:hover {
-    color: rgb(203, 203, 203);
-    transition-duration: 0.5s;
+    color: white;
 }
 
 .fullscreen-bg {
